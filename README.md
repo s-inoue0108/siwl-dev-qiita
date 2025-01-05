@@ -15,13 +15,13 @@ Qiita CLI can be used in `/qiita/*`.
 Automatically rewrite frontmatter and non-compliant syntax.
 
 ```bash
-yarn run siwl ex -f <filename> -t qiita
+yarn siwl ex -f <filename> -t qiita
 ```
 
 ### Push to parent repository with qiita repository
 
 ```bash
-yarn run deploy --qiita
+yarn deploy --qiita
 ```
 
 ### Push only qiita repository
@@ -34,5 +34,5 @@ git subtree push --prefix=qiita qiita main
 
 ```bash
 git subtree pull --prefix=qiita --squash qiita main
-yarn run deploy
+yarn deploy
 ```
