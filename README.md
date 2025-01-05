@@ -15,7 +15,7 @@ Qiita CLI can be used in `/qiita/*`.
 Automatically rewrite frontmatter and non-compliant syntax.
 
 ```bash
-yarn run siwl ex -f <filename> -s qiita
+yarn run siwl ex -f <filename> -t qiita
 ```
 
 ### Push to parent repository with qiita repository
