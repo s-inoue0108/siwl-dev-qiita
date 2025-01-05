@@ -34,5 +34,5 @@ git subtree push --prefix=qiita qiita main
 
 ```bash
 git subtree pull --prefix=qiita --squash qiita main
-yarn deploy
+yarn deploy --siwl
 ```
